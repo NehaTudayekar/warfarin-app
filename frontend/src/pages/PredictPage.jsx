@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
-
+//const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = "https://warfarin-app-production.up.railway.app";
 const DIAGNOSIS_OPTIONS = [
   { value: "mvr",  label: "MVR",  full: "Mitral Valve Replacement" },
   { value: "avr",  label: "AVR",  full: "Aortic Valve Replacement" },
